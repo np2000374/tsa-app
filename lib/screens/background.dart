@@ -10,13 +10,13 @@ class BackgroundScreen extends StatelessWidget {
       margin: const EdgeInsets.all(8),
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
-        border: Border.all(color: Colors.blue),
+        border: Border.all(color: const Color.fromARGB(255, 32, 2, 0)),
       ),
       child: Column(
         children: [
           Text(
             title,
-            style: const TextStyle(color: Colors.blue, fontWeight: FontWeight.bold),
+            style: const TextStyle(color: Color.fromARGB(255, 2, 28, 49), fontWeight: FontWeight.bold),
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 8),

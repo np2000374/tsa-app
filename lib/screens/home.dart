@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
               width: 200,
               height: 200,
               decoration: BoxDecoration(
-                border: Border.all(color: Colors.blue, width: 5),
+                border: Border.all(color: const Color.fromARGB(255, 3, 59, 5), width: 5),
               ),
               child: Image.network(
                 'https://placedog.net/640/480?random',
